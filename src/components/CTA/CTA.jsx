@@ -1,6 +1,7 @@
 import { Link } from 'react-scroll'
 import video from '../../assets/vid1.mp4'
 import video2 from '../../assets/vid2.mp4'
+import thumbnail from '../../assets/image_1.png'
 
 const CTA = () => {
   return (
@@ -48,6 +49,7 @@ const CTA = () => {
                 <li>
                   <div className="block group">
                     <video
+                      poster={thumbnail}
                       controls
                       src={video2}
                       type="video/mp4"

@@ -14,13 +14,10 @@ const Contact = () => {
             <div className="flex items-start max-w-xs sm:max-w-sm">
               <div className=" grow text-md">
                 <p className="mb-1 font-bold dark:text-white">Location </p>
-                <p className="text-black dark:text-neutral-200">
-                  1234 Broad St. City, Ohio 12345
-                </p>
 
-                {/* <p className="text-black dark:text-neutral-200">
+                <p className="text-black dark:text-neutral-200">
                   1496 Huguelet St. Akron, Ohio 44305
-                </p> */}
+                </p>
               </div>
             </div>
           </div>
@@ -28,17 +25,11 @@ const Contact = () => {
             <div className="flex items-start">
               <div className=" grow text-md max-w-xs sm:max-w-sm">
                 <p className="mb-1 font-bold dark:text-white">Contact</p>
-                {/* <p className="text-black dark:text-neutral-200">
+                <p className="text-black dark:text-neutral-200">
                   cjrobinson326@gmail.com
                 </p>
                 <p className="text-black dark:text-neutral-200">
                   (330)-957-2041
-                </p> */}
-                <p className="text-black dark:text-neutral-200">
-                  genericemail@gmail.com
-                </p>
-                <p className="text-black dark:text-neutral-200">
-                  (330)-123-1234
                 </p>
               </div>
             </div>
@@ -79,8 +70,7 @@ const Contact = () => {
       <div className="bg-white lg:mt-0   block w-full lg:w-1/2 rounded shrink-0 grow-0 basis-auto lg:flex  ">
         <div className="h-[400px] lg:h-full w-full">
           <iframe
-            // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.529969831041!2d-81.46769972374376!3d41.079265871340674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883129041286fb3b%3A0xe88c3f277792e8be!2s1496%20Huguelet%20St%2C%20Akron%2C%20OH%2044305!5e0!3m2!1sen!2sus!4v1687186440914!5m2!1sen!2sus"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3057.9017169566546!2d-82.97258172402131!3d39.96595005225089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1687445201355!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.529969831041!2d-81.46769972374376!3d41.079265871340674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883129041286fb3b%3A0xe88c3f277792e8be!2s1496%20Huguelet%20St%2C%20Akron%2C%20OH%2044305!5e0!3m2!1sen!2sus!4v1687186440914!5m2!1sen!2sus"
             className=" inset-0 w-full h-full"
             allowFullScreen=""
             loading="lazy"

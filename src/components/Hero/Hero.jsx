@@ -9,13 +9,12 @@ const Hero = () => {
             </h1>
 
             <p className="mt-2 max-w-sm m-auto sm:text-xl/relaxed text-white font-bold px-4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-              illo tenetur fuga ducimus numquam ea!
+              Precision Cuts, Every Time{' '}
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4 text-center">
               <a
-                // href="https://pressure-cuts.square.site/"
+                href="https://pressure-cuts.square.site/"
                 className="block m-auto rounded bg-white hover:bg-transparent hover:border hover:border-white px-12 py-3 text-sm font-bold text-black  shadow hover:text-white focus:outline-none focus:ring active:text-gray-600 sm:w-auto ring-transparent"
               >
                 BOOK NOW

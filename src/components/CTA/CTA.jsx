@@ -1,3 +1,6 @@
+import { Link } from 'react-scroll'
+import before from '../../assets/image_2.png'
+import after from '../../assets/image_3.png'
 const CTA = () => {
   return (
     <div>
@@ -8,7 +11,7 @@ const CTA = () => {
               <div className="max-w-md mx-auto text-center lg:text-left  py-6">
                 <header>
                   <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
-                    Before/after section
+                    Experience It Firsthand
                   </h2>
 
                   <p className="mt-1 text-black text-left">
@@ -17,12 +20,14 @@ const CTA = () => {
                   </p>
                 </header>
 
-                <a
-                  to="/gallery"
-                  className="inline-block px-12 py-3 mt-5 text-sm border font-bold text-white transition bg-black rounded hover:shadow  hover:bg-transparent hover:border hover:border-black shadow hover:text-black focus:ring active:text-gray-600"
+                <Link
+                  to="gallery"
+                  smooth={true}
+                  duration={500}
+                  className="inline-block px-12 py-3 mt-8 text-sm border font-bold text-white transition bg-black rounded hover:shadow  hover:bg-transparent hover:border hover:border-black shadow hover:text-black focus:ring active:text-gray-600"
                 >
-                  GALLERY
-                </a>
+                  <a href="#gallery">GALLERY</a>
+                </Link>
               </div>
             </div>
 
@@ -31,7 +36,7 @@ const CTA = () => {
                 <li>
                   <div className="block group">
                     <img
-                      src="https://i0.wp.com/therighthairstyles.com/wp-content/uploads/2016/07/10-skin-fade-with-line-up.jpg?resize=500%2C600&ssl=1"
+                      src={before}
                       alt=""
                       className="object-cover w-full rounded aspect-square"
                     />
@@ -41,7 +46,7 @@ const CTA = () => {
                 <li>
                   <div className="block group">
                     <img
-                      src="https://menshairstyle.funtouzy.com/wp-content/uploads/2019/12/Top-30-Best-African-American-Mens-Hairstyles-2020-Cool-Haircuts-for-Black-Men-Short-Line-up-with-Goatee.jpg"
+                      src={after}
                       alt=""
                       className="object-cover w-full rounded aspect-square"
                     />

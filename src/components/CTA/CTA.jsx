@@ -1,6 +1,7 @@
 import { Link } from 'react-scroll'
-import before from '../../assets/image_2.png'
-import after from '../../assets/image_3.png'
+import video from '../../assets/vid1.mp4'
+import video2 from '../../assets/vid2.mp4'
+
 const CTA = () => {
   return (
     <div>
@@ -35,9 +36,10 @@ const CTA = () => {
               <ul className="grid grid-cols-2 gap-4">
                 <li>
                   <div className="block group">
-                    <img
-                      src={before}
-                      alt=""
+                    <video
+                      controls
+                      src={video}
+                      type="video/mp4"
                       className="object-cover w-full rounded aspect-square"
                     />
                   </div>
@@ -45,9 +47,10 @@ const CTA = () => {
 
                 <li>
                   <div className="block group">
-                    <img
-                      src={after}
-                      alt=""
+                    <video
+                      controls
+                      src={video2}
+                      type="video/mp4"
                       className="object-cover w-full rounded aspect-square"
                     />
                   </div>

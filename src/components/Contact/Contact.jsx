@@ -9,13 +9,13 @@ const Contact = () => {
         <h2 className="pt-6 pb-2 text-center bg-gray-100 rounded text-xl font-bold text-black sm:text-3xl">
           Location & Hours
         </h2>
-        <div className="flex flex-col justify-center p-8  bg-gray-100 max-w-100  rounded">
-          <div className="mb-8 w-full shrink-0 grow-0 basis-auto   xl:px-12  mx-auto  max-w-sm ">
-            <div className="flex items-start max-w-xs sm:max-w-sm">
-              <div className=" grow text-md">
-                <p className="mb-1 font-bold dark:text-white">Location </p>
+        <div className="flex flex-col justify-center  p-8  bg-gray-100 max-w-100  rounded">
+          <div className="mb-8 w-full shrink-0 grow-0 basis-auto xl:px-12  mx-auto  max-w-sm ">
+            <div className="flex items-start  max-w-xs sm:max-w-sm">
+              <div className=" grow text-md ">
+                <p className="mb-1 font-bold ">Location </p>
 
-                <p className="text-black dark:text-neutral-200">
+                <p className="text-black ">
                   1496 Huguelet St. Akron, Ohio 44305
                 </p>
               </div>
@@ -24,20 +24,16 @@ const Contact = () => {
           <div className="mb-8 w-full shrink-0 grow-0 basis-auto   xl:px-12 max-w-sm mx-auto">
             <div className="flex items-start">
               <div className=" grow text-md max-w-xs sm:max-w-sm">
-                <p className="mb-1 font-bold dark:text-white">Contact</p>
-                <p className="text-black dark:text-neutral-200">
-                  cjrobinson326@gmail.com
-                </p>
-                <p className="text-black dark:text-neutral-200">
-                  (330)-957-2041
-                </p>
+                <p className="mb-1 font-">Contact</p>
+                <p className="text-black ">cjrobinson326@gmail.com</p>
+                <p className="text-black ">(330)-957-2041</p>
               </div>
             </div>
           </div>
           <div className=" mb-4 w-full shrink-0 grow-0 basis-auto   xl:px-12  mx-auto  max-w-sm ">
             <div className="align-start text-md flex">
               <div className=" grow">
-                <p className="mb-1 font-bold dark:text-white">Hours</p>
+                <p className="mb-1 font-bold">Hours</p>
                 <ul className="flex flex-col text-md max-w-xs sm:max-w-sm">
                   <li className="flex justify-between">
                     Monday<span>Closed</span>

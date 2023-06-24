@@ -1,8 +1,8 @@
 import { Link } from 'react-scroll'
 import video from '../../assets/vid1.mp4'
 import video2 from '../../assets/vid2.mp4'
-import thumbnail from '../../assets/THUMBNAIL1.png'
-import thumbnail2 from '../../assets/THUMBNAIL2.png'
+import thumbnail from '../../assets/thumbnail1.png'
+import thumbnail2 from '../../assets/thumbnail2.png'
 
 const CTA = () => {
   return (

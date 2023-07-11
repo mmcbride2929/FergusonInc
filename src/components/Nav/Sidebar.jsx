@@ -1,12 +1,10 @@
-import { Link } from 'react-scroll'
-
 const Sidebar = ({ setSidebarActive }) => {
   return (
     <div>
-      <div className="flex h-screen flex-col  justify-between  bg-white">
+      <div className="flex h-screen flex-col  justify-between  bg-blue-600">
         <div className="px-4 py-4 h-full ">
           <button
-            className=" block rounded bg-gray-200 p-2.5 text-gray-500 transition hover:text-gray-900/75 md:hidden"
+            className=" block rounded bg-white p-2.5 text-black transition hover:text-gray-900/75 md:hidden"
             onClick={() => setSidebarActive(false)}
           >
             <svg
@@ -27,29 +25,38 @@ const Sidebar = ({ setSidebarActive }) => {
               <a
                 onClick={() => setSidebarActive(false)}
                 href="#about"
-                className="block rounded-lg px-4 py-2 text-5xl  font-medium text-black hover:bg-gray-100 "
+                className="block rounded-lg px-4 py-2 text-5xl  font-medium text-white hover:text-black hover:bg-white "
               >
                 About
               </a>
             </li>
-
             <li>
               <a
                 onClick={() => setSidebarActive(false)}
-                href="#gallery"
-                className="block rounded-lg px-4 py-2 text-5xl font-medium text-black hover:bg-gray-100 "
+                href="#services"
+                className="block rounded-lg px-4 py-2 text-5xl  font-medium text-white hover:text-black hover:bg-white "
               >
-                Gallery
+                Services
               </a>
             </li>
 
             <li>
               <a
                 onClick={() => setSidebarActive(false)}
-                href="#location"
-                className="block rounded-lg px-4 py-2 text-5xl font-medium text-black hover:bg-gray-100 "
+                href="#work"
+                className="block rounded-lg px-4 py-2 text-5xl font-medium text-white hover:text-black hover:bg-white "
               >
-                Location
+                Work
+              </a>
+            </li>
+
+            <li>
+              <a
+                onClick={() => setSidebarActive(false)}
+                href="#contact"
+                className="block rounded-lg px-4 py-2 text-5xl font-medium text-white hover:text-black hover:bg-white "
+              >
+                Contact
               </a>
             </li>
           </ul>

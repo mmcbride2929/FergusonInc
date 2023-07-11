@@ -1,11 +1,13 @@
 import './App.css'
-import About from './Pages/About'
-import Gallery from './Pages/Gallery'
 import Home from './Pages/Home'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
+import About from './components/About/About'
+import Features from './components/Features/Features'
+
 import Nav from './components/Nav/Nav'
 import { useState } from 'react'
+import Work from './components/Work/Work'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   const [sidebarActive, setSidebarActive] = useState(false)
@@ -15,12 +17,10 @@ const App = () => {
       {!sidebarActive ? (
         <>
           <Home />
-
           <About />
-
-          <Gallery />
+          <Features />
+          <Work />
           <Contact />
-
           <Footer />
         </>
       ) : (

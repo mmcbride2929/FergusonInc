@@ -7,6 +7,16 @@ const Hero = () => {
       className="relative  bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
+      {/* absolute top-1.5 right-0 */}
+      <div className="mobile-only  flex justify-end items-start">
+        <a
+          href="tel:+1-888-636-9406"
+          className="p-2 px-4 text-blue-700  bg-white"
+        >
+          Call Now (888)-636-9406 ext. 101
+        </a>
+      </div>
+
       <div className="relative mx-auto   px-4 py-44 sm:px-6 flex justify-center align-center  lg:items-center lg:px-8">
         <div className=" text-center text-white ltr:sm:text-left rtl:sm:text-right">
           <h1 className="text-3xl font-extrabold sm:text-5xl">Ferguson Inc.</h1>

@@ -10,3 +10,11 @@
 .hero-bg {
   background-image: url('./assets/hero2.jpg');
 }
+
+.mobile-only {
+  display: inline-block;
+
+  @media (min-width: 640px) {
+    display: none;
+  }
+}

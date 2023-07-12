@@ -31,14 +31,14 @@ const Work = () => {
               />
               <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                 <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
-                  january 2020
+                  March 2021
                 </h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                  Job title
+                  Duty Free
                 </h1>
                 <p className="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  A more recent project at the Hartsfield-Jackson International
+                  Airport, remodeling the duty free store.
                 </p>
               </div>
             </div>
@@ -52,14 +52,14 @@ const Work = () => {
               />
               <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                 <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
-                  january 2020
+                  May 2022
                 </h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                  Job title
+                  Residential Pool Light Installation
                 </h1>
                 <p className="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  Installed and fit pool lighting making a summer pool safe and
+                  swimmable during the night hours.
                 </p>
               </div>
             </div>
@@ -73,14 +73,14 @@ const Work = () => {
               />
               <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                 <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
-                  january 2020
+                  March 2021
                 </h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                  Job title
+                  Hartsfield-Jackson Airport
                 </h1>
                 <p className="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  A more recent project at the Hartsfield-Jackson International
+                  Airport, remodeling the duty free store.
                 </p>
               </div>
             </div>
@@ -94,14 +94,14 @@ const Work = () => {
               />
               <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                 <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
-                  january 2020
+                  September 2019
                 </h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                  Job title
+                  Commercial Light Installation
                 </h1>
                 <p className="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  We installed four rows of commercial lights, at over 75 feet
+                  in the air at a local recreational center.
                 </p>
               </div>
             </div>
@@ -115,14 +115,15 @@ const Work = () => {
               />
               <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                 <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
-                  january 2020
+                  April 2022
                 </h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                  Job title
+                  Residential Electrical Layout
                 </h1>
                 <p className="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  Organized and installed electrical layout within multiple open
+                  framed residential homes as they prepare for further
+                  construction.
                 </p>
               </div>
             </div>
@@ -136,14 +137,14 @@ const Work = () => {
               />
               <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                 <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
-                  january 2020
+                  February 2023
                 </h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                  Alper Kamu
+                  Residential Kitchen Lighting
                 </h1>
                 <p className="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  blueprinted and installed new kitchen lighting above
+                  appliances, making an outdated kitchen look new again.
                 </p>
               </div>
             </div>

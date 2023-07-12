@@ -22,7 +22,7 @@ export default () => {
           />
         </svg>
       ),
-      contact: 'Carlton@fergusonine.net',
+      contact: 'support@fergusoninc.net',
     },
     {
       icon: (
@@ -41,7 +41,7 @@ export default () => {
           />
         </svg>
       ),
-      contact: '+1 (770) 280-1092',
+      contact: '+1 (888) 636-9406 ext 101',
     },
     {
       icon: (
